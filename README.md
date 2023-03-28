@@ -5,3 +5,4 @@ qwasar platformasi astrum filiali 1-2-3 asosiy mavsum talabalarining mart oyi ox
 ![image](https://user-images.githubusercontent.com/95844073/228161914-eebbd1ff-972f-43b0-9ba3-34e368dadbe7.png)
 
 ## Software Engineering
+![image](https://user-images.githubusercontent.com/95844073/228171317-b26455b6-61ff-4b3c-88a4-46dec22aa878.png)
