@@ -105,9 +105,10 @@ for i in page:
                                 s_data['Season 03 Rust'] = t['title']
                             else:
                                 s_data[current_progress] = t['title']
+                                
                 except:
                     pass
-
+                
         students.append(s_data)
 
     except:
