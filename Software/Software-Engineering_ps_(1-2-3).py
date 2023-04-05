@@ -16,89 +16,13 @@ d1 = today.strftime("%d_%m_%Y")
 d2 = today_2.strftime('%B %d, %Y %I:%M%p')
 d2_f = datetime.strptime(d2, '%B %d, %Y %I:%M%p')
 # print(d2_f)
-page = ['mirislom_m',
-'qutpiddi_b',
-'bakhtiyo_s',
-'tojiboy_ja',
-'solihov_d',
-'xojiakba_s',
-'yuldashe_m',
-'alimov_o',
-'baratov_b',
-'abduqahh_i',
-'urganova_j',
-'toirov_s',
-'salyaxov_d',
-'diyarova_s',
-'mahmudjo_j',
-'ahmurato_x',
-'ermekov_b',
-'umirzoqo_a',
-'khudoyor_m',
-'haydarov_d',
-'zokirboy_m',
-'ergashov_a',
-'ergashev_a',
-'ismanova_r',
-'qurbonov_a',
-'uktamov_s',
-'patidino_i',
-'atabekov_a',
-'ismailov_u',
-'erkinov_b',
-'tojiboye_b',
-'kazakbay_n',
-'murodov_m',
-'artigali_b',
-'sultonov_m',
-'avazov_a',
-'baxtiyor_a',
-'xolov_i',
-'karimxon_s',
-'yusipova_m',
-'oripov_s',
-'timurov_k',
-'temirov_a',
-'abduqash_i',
-'jumanaza_m',
-'komilova_i',
-'xusanov_ab',
-'abdujal_al',
-'doimjono_a',
-'murodov_av',
-'o-ktamov_e',
-'abdug-an_i',
-'tagaymur_i',
-'nortojiy_i',
-'tojiboye_m',
-'boxodirx_m',
-'gaziev_m',
-'g-ofirjo_m',
-'tolbayev_m',
-'abduvali_m',
-'akbarov_m',
-'narkulov_n',
-'turaev_n',
-'bekmurat_o',
-'zoirjono_r',
-'zaripov_ru',
-'nazirov_s',
-'maxmudov_s',
-'gaziyev_s',
-'aminjono_o',
-'isoqov_s',
-'sharipbo_s',
-'ziyomidi_d',
-'shavkat_sa',
-'ibragimo_z',
-'urinbaye_s'
-]
+page = ['mirislom_m', 'user_name']
 students = []
 
 br.open("https://casapp.us.qwasar.io/login?service=https%3A%2F%2Fupskill.us.qwasar.io%2Fusers%2Fservice")
 br.select_form(nr=0)
-br.form['username'] = 'soburjon19@icloud.com'
-br.form['password'] = 'Sobur2002'
+br.form['username'] = 'your_email'
+br.form['password'] = 'your_password'
 br.submit()
 
 for i in page:
@@ -179,11 +103,7 @@ for i in page:
                                 s_data['Season 03 Rust'] = t['title']
                             else:
                                 s_data[current_progress] = t['title']
-
-
-
-
-
+                                
                 except:
                     pass
 
