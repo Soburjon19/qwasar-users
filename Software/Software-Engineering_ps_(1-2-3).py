@@ -22,7 +22,7 @@ students = []
 br.open("https://casapp.us.qwasar.io/login?service=https%3A%2F%2Fupskill.us.qwasar.io%2Fusers%2Fservice")
 br.select_form(nr=0)
 br.form['username'] = 'your_email'
-br.form['password'] = 'your_password'
+br.form['password'] = 'your_qwasar_password'
 br.submit()
 
 for i in page:
