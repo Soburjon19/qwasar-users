@@ -119,3 +119,4 @@ json_list = json.dumps(students)
 data = pd.read_json(json_list)
 
 data.to_csv(f'student_{d1}.csv', index=False)
+# data.to_excel(f'student_{d1}.xlsx', index=False)
