@@ -9,3 +9,5 @@ qwasar platformasi astrum filiali 1-2-3 asosiy mavsum talabalarining mart oyi ox
 
 ## Datasine
 ![image](https://user-images.githubusercontent.com/95844073/228506095-e6f1956a-285e-4230-bdb0-123ae3b0c3a1.png)
+
+123
